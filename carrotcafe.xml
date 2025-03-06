@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles-cafe.css"?>
+<!DOCTYPE CarrotCafe SYSTEM "carrotcafe.dtd">
+<CarrotCafe>
+    <Menu>
+        <CakeItem name="Carrot cake" price="15.00">
+            <Description>Delicious afternoon treat with complementary coffee</Description>
+            <ComplimentaryItem>Coffee</ComplimentaryItem>
+            <Media>
+                <Gif>cake1.gif</Gif>
+                <Audio>cake1-sound.mp3</Audio>
+            </Media>
+        </CakeItem>
+        <CakeItem name="Chocolate cake" price="15.00">
+            <Description>Delicious afternoon treat with complementary coffee</Description>
+            <ComplimentaryItem>Coffee</ComplimentaryItem>
+            <Media>
+                <Gif>cake2.gif</Gif>
+                <Audio>cake2-sound.mp3</Audio>
+            </Media>
+        </CakeItem>
+        <CakeItem name="Lemon cake" price="15.00">
+            <Description>Delicious afternoon treat with complementary coffee</Description>
+            <ComplimentaryItem>Coffee</ComplimentaryItem>
+            <Media>
+                <Gif>cake3.gif</Gif>
+                <Audio>cake3-sound.mp3</Audio>
+            </Media>
+        </CakeItem>
+        <CakeItem name="Orange and poppyseed cake" price="15.00">
+            <Description>Delicious afternoon treat with complementary coffee</Description>
+            <ComplimentaryItem>Coffee</ComplimentaryItem>
+            <Media>
+                <Gif>cake4.gif</Gif>
+                <Audio>cake4-sound.mp3</Audio>
+            </Media>
+        </CakeItem>
+    </Menu>
+</CarrotCafe>

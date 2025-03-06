@@ -1,0 +1,10 @@
+<!ELEMENT CarrotCafe (Menu)>
+<!ELEMENT Menu (CakeItem+)>
+<!ELEMENT CakeItem (Description, ComplimentaryItem, Media)>
+<!ATTLIST CakeItem name CDATA #REQUIRED>
+<!ATTLIST CakeItem price CDATA #REQUIRED>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT ComplimentaryItem (#PCDATA)>
+<!ELEMENT Media (Gif, Audio)>
+<!ELEMENT Gif (#PCDATA)>
+<!ELEMENT Audio (#PCDATA)>
