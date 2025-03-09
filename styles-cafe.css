@@ -1,4 +1,7 @@
 /* Main Container */
+body{
+    margin: 0;
+}
 Menu {
     font-family: 'Verdana', sans-serif;
     display: flex;
